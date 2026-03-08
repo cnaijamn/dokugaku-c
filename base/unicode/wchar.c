@@ -1,5 +1,3 @@
-// 合字(ごうじ) ; Ligature(リガチャー)
-// https://ja.wikipedia.org/wiki/%E5%90%88%E5%AD%97
 #include <stdio.h>
 #include <stdlib.h>
 #include <wchar.h>
@@ -30,6 +28,11 @@ main(void)
 	mbstowcs(buf, "ゟӔæ☃㋿あ漢🙂𠮟𠮷", WLEN);
 	wprintf(L"%.*ls\n", 10, buf);
 	printf(" -> %lu\n", wcslen(buf)); // 10
+
+	////////////////////////////////////////////////////////////////////////
+	// 合字 (Ligature)
+	// https://ja.wikipedia.org/wiki/%E5%90%88%E5%AD%97
+	////////////////////////////////////////////////////////////////////////
 
 	// ラテン文字+結合記号(4コードポイント)
 	mbstowcs(buf, "a̲̐́̄", WLEN);

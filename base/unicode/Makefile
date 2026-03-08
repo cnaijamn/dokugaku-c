@@ -1,8 +1,8 @@
-PROG=	gouji
+PROG=	wchar
 MAN=
 LDADD=
 
-SRCS=	gouji.c
+SRCS=	wchar.c
 
 WARNS=	3
 

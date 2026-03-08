@@ -1,7 +1,7 @@
 SUBDIR=	berkeleydb \
 	c11_struct \
 	err \
-	ligature \
-	randhist
+	randhist \
+	unicode
 
 .include <bsd.subdir.mk>
