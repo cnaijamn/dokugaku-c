@@ -39,7 +39,7 @@ main(void)
 	// Zalgo風(大量の結合文字)
 	mbstowcs(buf, "Z̴̑̾̍̔̍̽́̈́͝", WLEN);
 	wprintf(L"%.*ls\n", 11, buf);
-	printf(" -> %lu\n", wcslen(buf)); // 
+	printf(" -> %lu\n", wcslen(buf)); // 11
 
 	// 絵文字(ZWJシーケンス)(4コードポイント)
 	mbstowcs(buf, "👩🏽‍💻", WLEN);
