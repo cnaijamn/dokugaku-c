@@ -1,6 +1,5 @@
 dokugaku-c
 ==========
 
-FreeBSD 15.0
-
-_TODO_
+独学サンプルコード
+(FreeBSD 15.0)
