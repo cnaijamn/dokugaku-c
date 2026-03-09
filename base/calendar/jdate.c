@@ -1,5 +1,5 @@
-// jdate / ndaysj : ユリウス暦(Julian)
-// ユリウス通日(天文学用、JD、Julian Day)とは違うので注意！
+// jdate / ndaysj : ユリウス暦(Julian calendar)
+// ユリウス通日(天文学用、JD、Julian day)とは違うので注意！
 #include <calendar.h>
 #include <stdio.h>
 
