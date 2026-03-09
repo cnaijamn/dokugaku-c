@@ -1,3 +1,4 @@
-SUBDIR=	uthash
+SUBDIR=	klib \
+	uthash
 
 .include <bsd.subdir.mk>
