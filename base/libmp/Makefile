@@ -1,8 +1,8 @@
-PROG=	mp
+PROG=	sample1
 MAN=
 LDADD=	-lmp
 
-SRCS=	mp.c
+SRCS=	sample1.c
 
 WARNS=	3
 CFLAGS+=
