@@ -1,4 +1,5 @@
 SUBDIR=	cblas \
-	openblas
+	openblas \
+	spblas
 
 .include <bsd.subdir.mk>
