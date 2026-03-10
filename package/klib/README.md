@@ -1,8 +1,9 @@
 Klib: a Generic Library in C
 ============================
+- Standalone and lightweight C library
 - https://github.com/attractivechaos/klib
 
-FreeBSD
+Install
 -------
 - `% sudo pkg install klib`  
   => `/usr/local/include/klib/*`  

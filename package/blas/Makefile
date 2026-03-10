@@ -1,3 +1,4 @@
-SUBDIR=	cblas
+SUBDIR=	cblas \
+	openblas
 
 .include <bsd.subdir.mk>

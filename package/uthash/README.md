@@ -1,9 +1,10 @@
 uthash
 ======
+- Hash table for C structures
 - https://troydhanson.github.io/uthash/userguide.html
 - https://github.com/troydhanson/uthash/tree/master/src
 
-FreeBSD
+Install
 -------
 - `% sudo pkg install uthash`  
   => `/usr/local/include/ut{array,hash,list,string}.h`  
