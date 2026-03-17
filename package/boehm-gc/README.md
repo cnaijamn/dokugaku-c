@@ -1,5 +1,5 @@
-Boehm–Demers–Weiser garbage collector
-=====================================
+Boehm garbage collector
+=======================
 - https://www.hboehm.info/gc/
 - https://github.com/bdwgc/bdwgc
 
