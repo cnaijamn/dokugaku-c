@@ -1,4 +1,5 @@
 SUBDIR=	blas \
+	boehm-gc \
 	klib \
 	uthash
 
