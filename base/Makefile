@@ -4,6 +4,7 @@ SUBDIR=	berkeleydb \
 	err \
 	libmp \
 	randhist \
+	sbuf \
 	unicode
 
 .include <bsd.subdir.mk>
